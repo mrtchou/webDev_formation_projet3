@@ -1,0 +1,26 @@
+html
+{
+    padding: 1%;
+    background-color: rgb(213, 214, 132);
+}
+body
+{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    max-width: 1440px;
+    width: auto;
+    margin: 0 auto;
+    font-size: 13px;
+    background-color: rgb(115, 207, 123);
+}
+
+header
+{
+    background-color:   rgb(249, 253, 6);
+}
+
+
+footer
+{
+    background-color:   rgb(7, 248, 108);
+}
