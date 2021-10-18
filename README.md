@@ -1,2 +1,1 @@
-# webDev_formation_projet3
-projet de creation d'une application mobile pour reserver son repas en avance.
+project to create a mobile application to reserve meals in advance.
