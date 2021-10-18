@@ -1,8 +1,4 @@
-html
-{
-    padding: 1%;
-    background-color: rgb(213, 214, 132);
-}
+
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -11,16 +7,42 @@ body
     width: auto;
     margin: 0 auto;
     font-size: 13px;
-    background-color: rgb(115, 207, 123);
 }
-
-header
-{
-    background-color:   rgb(249, 253, 6);
-}
-
-
-footer
-{
-    background-color:   rgb(7, 248, 108);
-}
+/*
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 20px;
+  }
+  */
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  h6 {
+    margin: 0;
+  }
+  
+  h1, h6 {
+    font-family: Shrikhand, Roboto, sans-serif;
+  }
+  
+  body, html {
+    font-family: "Roboto", sans-serif;
+  }
+  
