@@ -37,12 +37,52 @@ body {
   h6 {
     margin: 0;
   }
-  
-  h1, h6 {
-    font-family: Shrikhand, Roboto, sans-serif;
-  }
-  
-  body, html {
-    font-family: "Roboto", sans-serif;
-  }
-  
+
+
+  h1 {
+  font-size: 29px;
+  margin: 13px 0;
+}
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 15px;
+  /* 2 */
+}
+
+a {
+  background-color: transparent;
+}
+
+img {
+  border-style: none;
+}
+
+
+body {
+  background: white;
+}
+
+body a {
+  color: black;
+  text-decoration: none;
+}
+
+body h3 {
+  margin: 30px 10px 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+body p {
+  font-family: "Roboto", sans-serif;
+}
