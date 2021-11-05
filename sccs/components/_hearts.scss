@@ -1,0 +1,19 @@
+.heart {
+
+    svg {
+  
+      cursor: pointer;
+      fill: $secondaryGrey;
+      margin-right: 10px;
+      transition: .4s;
+      width: 20px;
+  
+    }
+  
+    &:hover svg {
+  
+      animation: animateHeart .4s;
+      fill: $primary;
+      
+    }
+  }

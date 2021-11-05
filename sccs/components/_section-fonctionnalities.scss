@@ -1,0 +1,69 @@
+.section-one {
+
+    @media screen and (min-width: 768px) {
+      padding: 10px 20px;
+    }
+  
+    @media screen and (min-width: 1024px) {
+      padding: 10px 50px;
+    }
+  }
+  
+  .section-fonctionnalities {
+  
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      margin-bottom: 20px;
+    }
+  
+  
+    .minicard {
+      background-color: $white;
+      border-radius: 25px;
+      box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.17);
+      font-family: $font-content;
+      margin: 20px 20px;
+  
+      &__content {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      height: 70px;
+  
+        .circle {
+        background-color: $primary;
+        border-radius: 50%;
+        color: white;
+        font-size: 15px;
+        margin: 0px 10px 0px -11px;
+        padding: 5px 8px;
+        }
+  
+        p {
+        font-family: $font-content;
+        font-size: 16px;
+        margin-left: 10px;
+        }
+  
+        .miniicon {
+        width: 50px;
+        font-size: 20px;
+        text-align: center;
+        color: $secondaryGrey;
+        }
+  
+      }
+  
+    .secondary {
+  
+      background-color: $secondaryState!important;
+      border-radius: 15px;
+  
+      .miniicon {
+        color: $tertiaryState!important;
+      }
+    }
+  }
+  }
