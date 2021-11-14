@@ -272,7 +272,19 @@
     color: white;
     padding: 15px 40px;
   }
-  
+
+
+  .order-button p:hover {
+    background: linear-gradient(#f8a6f8, #c19dee);
+    border-radius: 30px;
+    box-shadow: -1px 3px 25px -10px rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 15px 40px;
+  }
+
+
+
+
   @media screen and (min-width: 768px) {
     .section-one {
       padding: 10px 20px;
@@ -427,14 +439,31 @@
   .heart svg {
     cursor: pointer;
     margin-right: 10px;
-    transition: .7s;
     width: 20px;
+    font-weight: bold;
   }
   
-  .heart:hover svg {
+  .heart svg:hover {
     animation: animateHeart .4s;
     fill: #9356DC;
+  cursor: pointer;
   }
+
+
+
+ .heartHidden{
+   opacity: 0;
+  }
+
+  .heartHidden:hover {
+  opacity: 1;
+  }
+
+
+
+  
+  
+
   
   footer {
     background-color: #363636;
@@ -494,7 +523,7 @@
   .header__location {
     align-items: center;
     background: #eaeaea;
-    box-shadow: -2px 19px 21px -8px rgba(0, 0, 0, 0.26) inset;
+    box-shadow: -2px 19px 21px -8px rgb(233 226 226 / 13%) inset;
     display: flex;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -513,9 +542,10 @@
     text-align: center;
   }
   
-  .explore-location__title {
+  .explore-location__title h2{
     font-size: 18px;
     padding: 20px 75px 0px;
+    font-weight: 900;
   }
   
   .explore-location__subtitle {
@@ -533,6 +563,16 @@
     font-size: 16px;
     padding: 18px 30px;
   }
+
+  .explore-location__button:hover{
+    background: linear-gradient(#f8a6f8, #c19dee);
+    border-radius: 50px;
+    box-shadow: 1px 16px 43px -2px rgba(0, 0, 0, 0.15);
+    color: white;
+    font-size: 16px;
+    padding: 18px 30px;
+  }
+  
   
   .header-title {
     align-items: center;
